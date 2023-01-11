@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
 }
 html {
-    background: url('images/pexels-mnz-1598505.jpg') no-repeat center fixed;
+    background: url('../images/pexels-piccinng-2272752.jpg') no-repeat center fixed;
     background-size: cover;
 }   
 
@@ -16,13 +16,13 @@ main {
 }
 
 header {
-    background-color: rgba(196, 120, 76, 0.5);
+    background-color: rgba(37, 42, 59, 0.5);
     color: #E5E7EB;
 }
 
 footer {
     text-align: center;
-    padding: 40px 100px;
+    padding: 20px 100px;
     background-color: #1F2937;
     color: #E5E7EB;
 }
@@ -109,7 +109,7 @@ footer {
     min-width: 300px;
     min-height: auto;
     height: 300px;
-    opacity: 0.5;
+    opacity: 0.8;
     border-radius: 10px;
 }
 
@@ -136,7 +136,7 @@ footer {
 .content {
     width: 550px;
     display: flex;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(37, 42, 59, 0.5);
     color: #E5E7EB;
     font-size: 24px;
     text-align: justify;
@@ -160,7 +160,7 @@ footer {
     justify-content: center;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(37, 42, 59, 0.5);
     color: #E5E7EB;
 }
 
