@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
 }
 html {
-    background: url('../images/pexels-piccinng-2272752.jpg') no-repeat center fixed;
+    background-color: rgb(29, 37, 37);
     background-size: cover;
 }   
 
@@ -31,7 +31,7 @@ footer {
 
 /**top content**/
 .header-index {
-    height: 450px;
+    height: 300px;
     display: flex;
     justify-content: center;
     padding: 30px 100px;
@@ -56,11 +56,13 @@ footer {
 }
 
 .header-description, a {
-    font-size: 18px;
+    font-size: 24px;
     text-decoration: none;
     color: #E5E7EB;
 }
-
+.header-description {
+    margin-top: 20px;
+}
 .top-btn {
     cursor: pointer;
     width: 250px;
@@ -98,6 +100,7 @@ footer {
 
 .photo-boxes {
     display: flex;
+    flex-direction: row;
     gap: 30px;
     padding: 30px;
     justify-content: center;
@@ -109,12 +112,7 @@ footer {
     min-width: 300px;
     min-height: auto;
     height: 300px;
-    opacity: 0.8;
     border-radius: 10px;
-}
-
-.pic:hover {
-    opacity: 1;
 }
 
 .pic-text {
@@ -130,7 +128,6 @@ footer {
     margin-top: 15px;
     font-size: 24px;
     color: #E5E7EB;
-
 }
 
 .content {
