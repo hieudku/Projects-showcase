@@ -1,5 +1,4 @@
 /**CSS**/
-
 body {
     margin: 0 auto;
     display: flex;
@@ -9,26 +8,23 @@ body {
 html {
     background-color: rgb(29, 37, 37);
     background-size: cover;
+    font-family: monospace;
 }   
-
 main {
     flex: 1;
 }
-
 header {
     background-color: rgba(37, 42, 59, 0.5);
     color: #E5E7EB;
 }
-
 footer {
+    width: 100%;
     text-align: center;
-    padding: 20px 100px;
+    padding-top: 15px;
     background-color: #1F2937;
     color: #E5E7EB;
 }
-
 /**Classes and values **/
-
 /**top content**/
 .header-index {
     height: 300px;
@@ -37,24 +33,20 @@ footer {
     padding: 30px 100px;
     gap: 50px 200px;
 }
-
 .logo, .links {
     padding-bottom: 50px;
     font-size: 20px;
 }
-
 .links {
     display: flex;
     gap: 25px;
     justify-content: flex-end;
 }
-
 .main-header {
     padding-top: 30px;
     font-size: 48px;
     font-weight: bolder #F9FAF8;
 }
-
 .header-description, a {
     font-size: 24px;
     text-decoration: none;
@@ -75,7 +67,6 @@ footer {
     padding: 10px 35px;
     margin: 30px 0px;
 }
-
 .responsive {
     width: 550px;
     max-width: 100%;
@@ -83,13 +74,7 @@ footer {
     height: auto;
     border-radius: 10px;
 }
-
 /**main content**/
-
-.info-header2 {
-    
-}
-
 .info-header2 {
     font-size: 36px;
     font-weight: bolder #1F2937;
@@ -97,7 +82,6 @@ footer {
     padding: 30px;
     color: #E5E7EB;
 }
-
 .photo-boxes {
     display: flex;
     flex-direction: row;
@@ -106,15 +90,13 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .pic {
-    max-width: 100%;
-    min-width: 300px;
+    max-width: 60%;
+    min-width: 250px;
     min-height: auto;
     height: 300px;
     border-radius: 10px;
 }
-
 .pic-text {
     display: flex;
     flex-direction: column;
@@ -122,61 +104,32 @@ footer {
     align-content: center;
     flex-wrap: wrap;
 }
-
 .text {
     text-align: center;
     margin-top: 15px;
     font-size: 24px;
     color: #E5E7EB;
 }
-
 .content {
-    width: 550px;
     display: flex;
-    background-color: rgba(37, 42, 59, 0.5);
-    color: #E5E7EB;
-    font-size: 24px;
-    text-align: justify;
-    font-style: italic;
-    font-weight: lighter; 
-    margin: auto;
-    padding: 50px 100px;
-    border-radius: 10px;
-}
-
-/**bottom content**/
-
-.bottom-box {
+    flex-direction: column;
     align-items: center;
-    width: 700px;
-    height: auto;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    border-radius: 10px;
+    width: 100%;
     background-color: rgba(37, 42, 59, 0.5);
     color: #E5E7EB;
-}
-
-.bottom-btn {
-    cursor: pointer;
-    width: 250px;
-    background-color: #db5a27;
-    color: #d2e4e9;
-    border-radius: 5px;
-    border: 2px #0099CC;
-    text-transform: uppercase;
     font-size: 24px;
-    padding: 10px 35px;
-    margin: 30px;
+    font-weight: lighter; 
+    padding-top: 40px;
 }
-
-.bottom-text {
-    font-style: italic;
-    font-size: 24px;
-    font-weight: bolder #1F2937;
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
-
+.tap {
+    border-top: 10px;
+    width: 50px;
+    height: 30px;
+}
