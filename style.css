@@ -20,82 +20,44 @@ header {
 footer {
     width: 100%;
     text-align: center;
-    padding-top: 15px;
+    padding: 2rem 0;
     background-color: #1F2937;
     color: #E5E7EB;
 }
 /**Classes and values **/
 /**top content**/
 .header-index {
-    height: 300px;
     display: flex;
     justify-content: center;
-    padding: 30px 100px;
-    gap: 50px 200px;
-}
-.logo, .links {
-    padding-bottom: 50px;
-    font-size: 20px;
-}
-.links {
-    display: flex;
-    gap: 25px;
-    justify-content: flex-end;
+    padding: 2rem 4rem;
 }
 .main-header {
-    padding-top: 30px;
-    font-size: 48px;
+    padding-top: 2.5rem;
+    font-size: 2.5rem;
     font-weight: bolder #F9FAF8;
 }
 .header-description, a {
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     color: #E5E7EB;
 }
 .header-description {
-    margin-top: 20px;
-}
-.top-btn {
-    cursor: pointer;
-    width: 250px;
-    background-color: #db5a27;
-    color: #d2e4e9;
-    border-radius: 5px;
-    border: 2px #0099CC;
-    text-transform: uppercase;
-    font-size: 24px;
-    padding: 10px 35px;
-    margin: 30px 0px;
-}
-.responsive {
-    width: 550px;
-    max-width: 100%;
-    min-width: 300px;
-    height: auto;
-    border-radius: 10px;
+    margin-top: 2.5rem;
 }
 /**main content**/
-.info-header2 {
-    font-size: 36px;
-    font-weight: bolder #1F2937;
-    text-align: center;
-    padding: 30px;
-    color: #E5E7EB;
-}
 .photo-boxes {
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-    padding: 30px;
+    flex-direction: column;
+    padding: 2rem 0;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 5rem;
 }
 .pic {
-    max-width: 60%;
-    min-width: 250px;
+    max-width: 50%;
+    min-width: 4rem;
     min-height: auto;
-    height: 300px;
-    border-radius: 10px;
+    height: 20rem;
 }
 .pic-text {
     display: flex;
@@ -106,9 +68,8 @@ footer {
 }
 .text {
     text-align: center;
-    margin-top: 15px;
-    font-size: 24px;
-    color: #E5E7EB;
+    font-size: 1.5rem;
+    color: #cbcdd1;
 }
 .content {
     display: flex;
@@ -117,19 +78,14 @@ footer {
     width: 100%;
     background-color: rgba(37, 42, 59, 0.5);
     color: #E5E7EB;
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: lighter; 
-    padding-top: 40px;
+    padding-top: 2rem;
 }
 ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-}
-.tap {
-    border-top: 10px;
-    width: 50px;
-    height: 30px;
+    gap: 1.4rem;
 }
